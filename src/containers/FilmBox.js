@@ -34,10 +34,13 @@ const FilmBox = () => {
           
           return(
             <>
+                <body>
+                  
                 <h1>Upcoming Film Releases for UK</h1>
+                <hr />
                 <FilmList films={films}/>
                 <button><a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases >></a></button>
-    
+                </body>
             </>
     
         )

@@ -5,9 +5,11 @@ const FilmList= ({films}) => {
 
     const filmNodes = films.map(film => {
         return (
-            <ol>
+            <ul>
+            <li>
             <Film name ={film.name} key={film.id}>{film.url}</Film>
-            </ol>
+            </li>
+            </ul>
         );
     });
 
