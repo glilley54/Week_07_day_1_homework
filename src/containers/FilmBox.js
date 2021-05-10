@@ -1,5 +1,5 @@
 import React , {useState} from 'react';
-import FilmList from '../components/FilmsList';
+import FilmList from '../components/FilmList';
 
 const FilmBox = () => {
 
