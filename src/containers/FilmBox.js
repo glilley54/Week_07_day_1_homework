@@ -34,6 +34,7 @@ const FilmBox = () => {
           
           return(
             <>
+            <link rel="stylesheet" href="style.css" />
                 <body>
                   
                 <h1>Upcoming Film Releases for UK</h1>
